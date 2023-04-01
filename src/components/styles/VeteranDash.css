@@ -1,0 +1,269 @@
+#addPost
+{
+    background-color: white;
+    padding: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    text-align: left;
+    box-shadow: 0 4px 30px rgba(190, 190, 190, 0.1);
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1rem;
+    border:  1px solid lightgray;
+    height:max-content;   
+}
+#Posts
+{
+    background-color: white;
+    padding: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    text-align: left;
+    box-shadow: 0 4px 30px rgba(190, 190, 190, 0.1);
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1rem;
+    border:  1px solid lightgray;
+    height:max-content;   
+
+}
+#viewProfile
+{
+    background-color: white;
+    padding: 2rem;
+    padding-right: 1rem;
+    text-align: left;
+    box-shadow: 0 4px 30px rgba(190, 190, 190, 0.1);
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1rem;
+    border:  1px solid lightgray;
+}
+.PostDesc
+{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    transition: 0.3s;
+    margin-bottom: 1rem;
+}
+.PostDesc:focus
+ {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    transition: 0.3s;
+}
+#container 
+{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border-radius: 10px;
+    width: 88%;
+    height: max-content;
+    background-color: #ffffff;
+    padding: 10px 30px ;
+}
+.card h3 
+{
+    font-size: 1rem;
+    font-weight: 600;
+}
+  
+.drop_box {
+    margin: 10px 0;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    border: 3px dotted #a3a3a3;
+    border-radius: 5px;
+}
+  
+  .drop_box h4 {
+    
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2e2e2e;
+    margin-top: 0.5rem;
+}
+.ButtonHolder
+{
+    float: right;
+    margin-top: 0.5rem;
+} 
+  
+  #btn {
+    text-decoration: none;
+    background-color:  #69D4C6;
+    color: #ffffff;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  #btn:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #005af0;
+    padding: 0.7rem;
+    border: none;
+    outline: 1px solid #010101;
+  }
+  .form input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: #69D4C6;
+    color: white;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+    transition: all .15s ease;
+    border: none
+}
+
+.profile
+{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+
+#conn
+{
+    text-align:center;
+    background-color: white;
+    box-shadow: 0 4px 30px rgba(190, 190, 190, 0.1);
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1rem;
+    border:  1px solid lightgray;
+}
+#conn-1
+{
+    text-align:center;
+    background-color: white;
+    box-shadow: 0 4px 30px rgba(190, 190, 190, 0.1);
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1rem;
+    border:  1px solid lightgray;
+    margin-top: 1rem;
+}
+
+#table
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black; 
+    width: 100%;
+}
+.table-text
+{
+    border: 1px solid lightgray;
+    padding: 0.7rem;
+    width:fit-content;
+    white-space: nowrap;
+}
+#profile-1
+{
+    margin-top: -0.5rem;
+}
+#Posts-1
+{
+    background-color: white;
+    height: fit-content;
+    padding-top: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+
+#event-placeholder
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+#event-placeholder h6
+{
+    font-size: 1.2rem;
+    margin-left: -2.5rem;
+    margin-top: 0.5rem;
+    color:#2e2e2e;
+    font-family: 'Nunito', sans-serif;
+}
+.event-text
+{
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid lightgray;
+    color: white;
+    background-color: #69D4C6;
+    padding: 0.5rem;
+    width:fit-content; 
+    white-space: nowrap;
+    font-size: 0.9rem;
+    align-items: center;
+}
+.event-text-1
+{
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid lightgray;
+    color:gray;
+    padding-top: 0.4rem;
+    width:fit-content; 
+    white-space: nowrap;
+    width: 31%;
+}
+#dated
+{
+    display: flex;
+}
+#Posts-2
+{
+    background-color: white;
+    height: fit-content;
+    padding-top: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    padding-right: 1rem;
+}
+.Event-btn
+{
+    margin-bottom: 1rem;
+    background-color:white;
+    width: 100%;
+    border: 1px solid #2e2e2e;
+    color:#2e2e2e;
+    border-radius: 0.2rem;    
+    transition-duration: 0.5s;
+}
+.Event-btn:hover
+{
+    background-color:rgb(241, 85, 85);
+    color:white;
+    border: 1px solid white;
+}
+.Event-btn-2
+{
+    margin-bottom: 1rem;
+    background-color:rgb(241, 85, 85);
+    width: 100%;
+    border: 1px solid #2e2e2e;
+    color:#2e2e2e;
+    border-radius: 0.2rem;    
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,42 @@
+//npm i react-router-dom 
+//npm i react-router-dom concurrently
+
+//The concurrently pacakge allows us to run both backend and frontend at the same time,
+//Go to pacakge.json for your React App
+   "both" : "concurrently \"npm run start\" \"nodemon Backend/index.js\""
+//Write this under "script". 
+
+ContextHook
+//Scenerio: Dekho abb apke app.js per bhot sare components hain, or ager nested components bhi hain,
+            Ager in sub ko koi ek common cheez use kerne hai, jaise ke koi color ya theme, tou har jagah
+            as a prop pass kerne parege, jo ke bhot khuwari or gandi cheez hai.
+//Solution: Solution iska contexthook hai jo color ka context save kerlega or har jagah use kersakte ho.
+            useContext(Color); //Updation can only be done.
+
+                App.js
+                  |
+        -------------------------
+        |       |       |       |
+        C1      C2     C3      C4
+        |       |
+        C5      C7
+        |
+        C6
+
+
+//Using Context
+   1.Create Context.js file 
+         //This file just contain the creation of context using "createContext()".
+   2.Create ContextStates.js file.
+         //This file will contain all the global states, the set function and etc.
+         //Return will be wrapped around the provider of context created.
+   3.Wrap App.js with the states.js 
+         //i.e. <NotesStates>
+   4.Now use the states everywhere.
+         //const Context = useContext(NoteContext);
+         //{Context.Notes} ->It will allow you to use Global state named "Notes".
+
+//FrontAwesome
+   //Login to fontawesome site.
+   //Copy the kitcode.
+   //Paste it in the public/index.html.

@@ -1,0 +1,33 @@
+.sample-btn
+{
+    background-color:  #69D4C6;
+    border: 1px solid  #69D4C6;
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    transition-duration: 0.5s;
+    align-items: center;
+}
+.sample-btn:hover
+{
+    background-color: rgb(219, 97, 97);
+    color: white;
+    border-color: rgb(219, 97, 97);
+}
+#wrapper-1
+{
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    text-align: left;
+    background-color: white;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    white-space:nowrap;
+}
+
+.wrapper-text
+{
+    width: 100%
+}

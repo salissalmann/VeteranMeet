@@ -1,0 +1,42 @@
+.UserDetails
+{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    justify-content: center;
+}
+#Username
+{
+    float:left;
+    font-size: 5rem;
+    color:black;
+}
+#UserPicture
+{
+    margin-top: 0.4rem;
+}
+
+.post-container
+{
+    display: flex;
+    justify-content: center;
+    border:  1px solid lightgray;
+    margin-left: -1rem;
+}
+.post-desc
+{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.comments
+{
+    display: flex;
+    font-size:1.8rem;
+    margin-top: 1rem;
+    color: rgb(53, 52, 52);
+}
+.Like
+{
+    margin-left: 1rem;
+    margin-top: -0.1rem;
+}
